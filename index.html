@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Project</title>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./public/js/main.js"></script>
+  </head>
+  <body>
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="scores">
+      <p class="player">
+        <span class="p1">PLAYER</span>
+        <span class="score-player">0</span>
+      </p>
+      <p class="Tie">
+        <span class="tie-p1">TIE</span>
+        <span class="score-tie">0</span>
+      </p>
+      <p class="computer">
+        <span class="p2">COMPUTER</span>
+        <span class="score-computer">0</span>
+      </p>
+    </div>
+    <div class="results-div">
+      <ul class="result-list" id="resultsList"></ul>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div data-winning-message-text></div>
+      <div class="buttons-div">
+        <button id="restartButton">Restart</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
